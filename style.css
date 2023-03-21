@@ -1,0 +1,22 @@
+.header{
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    background-color: blue;
+}
+.cards{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.main-aside{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 2fr 1fr
+}
+footer{
+    background-color: orange;
+}
